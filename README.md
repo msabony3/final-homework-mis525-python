@@ -22,24 +22,12 @@ Key Variables:
 
 - Imported and inspected the dataset using Pandas (df.head(), df.shape, df.dtypes).
 - Sorted records by ID and verified dataset dimensions.
-- Created a TotalPay column combining wage, bonus, and benefits.
-- Calculated descriptive statistics:
--   Minimum, maximum, and average total pay.
--   Number of employees earning above average.
-- Queried specific records:
--   Found employee details for Michael J. Proctor.
--   Identified the person with the highest wage overall.
-- Aggregated data:
--   Employee counts by year and by state (e.g., NY-only results).
--   Average total pay per year and for NY/NJ employees.
-- Performed data cleaning:
--   Checked for missing values.
--   Filled missing wages with the column mean.
-- Grouped and filtered for insights:
--   Highest wage by year.
--   Most common job titles and their frequencies.
--   Count of unique and one-off titles per year.
--   Number of police-related titles outside NY.
+- Created a derived TotalPay column combining wage, bonus, and benefits.
+- Calculated descriptive statistics (minimum, maximum, average total pay, number of employees earning above average)
+- Queried specific records
+- Aggregated data (employee counts by year and by state)
+- Performed data cleaning (checked for missing values, filled missing wages with the column mean)
+- Grouped and filtered for insights (highest wage by year, most common job titles and their frequencies, count of unique and one-off titles per year, number of police-related titles outside NY)
 
 ---
 
@@ -49,8 +37,7 @@ Key Variables:
 - Data cleaning and preprocessing
 - Grouping and aggregation with groupby()
 - Conditional filtering and Boolean indexing
+- Statistical summary and descriptive analytics
+- Iterative logic and validation (for loops, .isnull())
 
 ---
-Statistical summary and descriptive analytics
-
-Iterative logic and validation (for loops, .idxmax(), .isnull())
